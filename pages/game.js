@@ -1,10 +1,8 @@
 import Menu from '../components/menu';
+import Layout from '../layouts/layout';
 
 const game = () => (
-    <div>
-        <div>
-            <h1 style={{textAlign: "center"}}>Akademi E-Sports Indonesia</h1>
-        </div>
+    <Layout>
         <Menu />
         <link />
         <main>
@@ -27,7 +25,7 @@ const game = () => (
                 <a href="#">LEARN </a>
             </section>
         </main>
-    </div>
+    </Layout>
 )
 
 export default game;

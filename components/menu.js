@@ -7,7 +7,7 @@ function Menu(){
             <input type="checkbox" id="menuShowHide" />
             <label for="menuShowHide"></label>
             <ul id="mainMenu">
-                <li><Link href="/"><a>Home</a></Link></li>
+                <li><Link href="/"><a>HOME</a></Link></li>
                 <li><Link href="/game"><a>GAME</a></Link></li>
                 <li><Link href="/howtojoin"><a>HOW TO JOIN</a></Link></li>
                 {/* <li><Link href="/tipsandtrick"><a>TIPS AND TRICK</a></Link></li> */}

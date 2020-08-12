@@ -1,16 +1,14 @@
 import Menu from '../components/menu';
+import Layout from '../layouts/layout';
 
 function Beranda(){
   return(
-    <div>
-      <div>
-        <h1 style={{textAlign: "center"}}>Akademi E-Sports Indonesia</h1>
-      </div>
+    <Layout>
       <Menu />
       <main>
         <p>Kami siap mengedukasi dan membantu player Indonesia untuk menjadi lebih baik</p>
       </main>
-    </div>
+    </Layout>
   );
 }
 
